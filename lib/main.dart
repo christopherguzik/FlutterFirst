@@ -23,45 +23,46 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.redAccent,
       ),
 
-         body: Row(
-           children: [
-             Expanded(
-                 child: Image.network('https://www.rapettispizzeria.com.au/thumbnails/store/logo/200/rap/rapettis-pizzeria.png?v=1531466263'),
-                flex: 5,
-             ),
-             Expanded(
-               flex: 1,
-               child: Container(
-                 padding: EdgeInsets.all(30.0),
-                 color: Colors.cyan,
-                 child: Text('1'),
-               ),
-             ),
-             Expanded(
-               flex: 1,
-             child: Container(
-               padding: EdgeInsets.all(30.0),
-               color: Colors.pink,
-               child: Text('2'),
-             ),
-             ),
-             Expanded(
-               flex: 1,
-             child: Container(
-               padding: EdgeInsets.all(30.0),
-               color: Colors.amber,
-               child: Text('3'),
-             ),
-             ),
-             Column(
-               children: [
-                 Text('sdg'),
-                 
-               ],
-             ),
-
-           ],
-         ),
+         // body:
+        // Row(
+         //   children: [
+         //     Expanded(
+         //         child: Image.network('https://www.rapettispizzeria.com.au/thumbnails/store/logo/200/rap/rapettis-pizzeria.png?v=1531466263'),
+         //        flex: 5,
+         //     ),
+         //     Expanded(
+         //       flex: 1,
+         //       child: Container(
+         //         padding: EdgeInsets.all(30.0),
+         //         color: Colors.cyan,
+         //         child: Text('1'),
+         //       ),
+         //     ),
+         //     Expanded(
+         //       flex: 1,
+         //     child: Container(
+         //       padding: EdgeInsets.all(30.0),
+         //       color: Colors.pink,
+         //       child: Text('2'),
+         //     ),
+         //     ),
+         //     Expanded(
+         //       flex: 1,
+         //     child: Container(
+         //       padding: EdgeInsets.all(30.0),
+         //       color: Colors.amber,
+         //       child: Text('3'),
+         //     ),
+         //     ),
+         //     Column(
+         //       children: [
+         //         Text('sdg'),
+         //
+         //       ],
+         //     ),
+         //
+         //   ],
+         // ),
       //
       //
       //
@@ -121,9 +122,15 @@ class Home extends StatelessWidget {
       //   padding: EdgeInsets.all(50),
       //   child: Text('Hi'),
       // ),
-        // Image.network('https://www.rapettispizzeria.com.au/thumbnails/store/logo/200/rap/rapettis-pizzeria.png?v=1531466263'),
+      body:
+          Center(
+            child:
+
+         Image.network('https://www.rapettispizzeria.com.au/thumbnails/store/logo/200/rap/rapettis-pizzeria.png?v=1531466263'),
           //image: NetworkImage('https://www.rapettispizzeria.com.au/thumbnails/store/logo/200/rap/rapettis-pizzeria.png?v=1531466263'),
           //image: assetimage(''):
+
+    ),
 
 
       floatingActionButton: FloatingActionButton(
